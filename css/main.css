@@ -1,0 +1,152 @@
+.navbar .navbar-nav .nav-link:not(.btn) i.fa{
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+  text-align: center;
+  width: 21px;
+}
+.clear-filter[filter-color=pink-blue] {
+  background: rgba(54, 113, 119, 0.7);
+background: linear-gradient(63deg, rgba(54, 113, 119, 0.7) 4%, rgba(212, 124, 104, 0.7) 61%, rgba(199, 147, 131, 0.7) 72%, rgba(100, 156, 155, 0.7) 93%);
+}
+.bg-pink-blue {
+  background: rgb(54,112,119);
+  background: linear-gradient(63deg, rgba(54,112,119,1) 4%, rgba(212,123,104,1) 61%, rgba(199,147,131,1) 72%, rgba(100,156,155,1) 93%);
+}
+[data-background-color=pink-blue] {
+  background: rgb(54,112,119);
+background: linear-gradient(63deg, rgba(54,112,119,1) 4%, rgba(212,123,104,1) 61%, rgba(199,147,131,1) 72%, rgba(100,156,155,1) 93%);
+}
+.navbar.navbar-transparent {
+  background-color: linear-gradient(63deg, rgb(59, 180, 194) 4%, rgb(104, 205, 212) 61%, rgb(131, 183, 199) 72%, rgb(83, 167, 165) 93%)!important;
+  background: linear-gradient(63deg, rgb(59, 180, 194) 4%, rgb(104, 205, 212) 61%, rgb(131, 183, 199) 72%, rgb(83, 167, 165) 93%)!important;
+}
+.index-page .page-header .container>.content-center {
+  top: 43%;
+  background-size: cover;
+}
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: .83em;
+}
+.card {
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.sp { display: none; }
+.pc { display: block; }
+.pc.n-logo {
+  display: inline-block;
+}
+.sp.n-logo {
+  display: none;
+}
+.btn, input[type="text"], input[type="email"] {
+  font-size: 1.15em;
+}
+.btn-pink-blue{
+  background:rgb(54,112,119);
+  margin: 20px 0px 50px 0px;
+}
+.btn-pink-blue:hover, .btn-pink-blue:focus, .btn-pink-blue:active, .btn-pink-blue:hover:active{
+  background:linear-gradient(63deg, rgb(59, 180, 194) 4%, rgb(104, 205, 212) 61%, rgb(131, 183, 199) 72%, rgb(83, 167, 165) 93%);
+  color: black;
+}
+.Frameworks-row {
+  margin-bottom: 40px;
+}
+.modal-dialog {
+  max-width: 600px;
+}
+.think{
+  font-size: 1.95em;
+}
+.title {
+  font-weight: normal;
+  text-align: center;
+}
+#Frameworks {
+  padding: 30px 0 30px 0;
+}
+#Team, #Contributions, #contact {
+  padding: 30px 0 90px 0;
+}
+#Team h2, #Frameworks h2 {
+  margin-bottom: 10px;
+}
+h2 {
+  background: linear-gradient(63deg, rgba(54,112,119,1) 4%, rgba(212,123,104,1) 61%, rgba(199,147,131,1) 72%, rgba(100,156,155,1) 93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3.3em;
+}
+#Team h5, #Frameworks h5 {
+  margin-bottom: 40px;
+}
+.Contribution-item img {
+  width: 175px;
+  margin: 10px 0 25px 0;
+}
+.col-form-contact {
+  padding: 0;
+}
+.contact .btn-pink-blue {
+  margin: 0px 0px 35px 0px;
+}
+
+.img-raised{
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.3);
+}
+.copyright {
+  width: 100%;
+  text-align: center!important;
+}
+.contact {
+  box-shadow: 0 3px 20px -4px rgba(0,0,0,.3);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+.contact h4 {
+  background-image: linear-gradient(63deg, rgba(54,112,119,1) 4%, rgba(212,123,104,1) 61%, rgba(199,147,131,1) 72%, rgba(100,156,155,1) 93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@media screen and (max-width: 600px) {
+  .sidebar-collapse .navbar-collapse:before {
+    background: rgb(54,112,119);
+  background: linear-gradient(63deg, rgba(54,112,119,1) 4%, rgba(212,123,104,1) 61%, rgba(199,147,131,1) 72%, rgba(100,156,155,1) 93%);
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .sp { display: block; }
+  .pc { display: none; }
+  .sp.n-logo {
+    display: inline-block;
+  }
+  .pc.n-logo {
+    display: none;
+  }
+  h2 {
+    font-size: 2.3em;
+  }
+  .card-signup {
+    height: auto;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    overflow-y: overlay;
+}
+}
+@media screen and (max-width: 500px){
+  div.bg-light {
+    max-width: 360px;
+    margin: auto;
+  }
+}

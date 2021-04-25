@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Project IO</title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+  <!-- Bootstrap core CSS     -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.min.css?v1.2.0" rel="stylesheet"/>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="img/logo.png">
+
+</head>
+
+<body class="index-page sidebar-collapse">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-pink-blue fixed-top navbar-transparent " color-on-scroll="200">
+			<div class="container">
+				<div class="navbar-translate">
+					<a class="navbar-brand"  href="javascript:void(0)" rel="tooltip" title="Project IO" data-placement="bottom" target="_blank">
+						<img src="img/logo.png" alt="Project IO" class="pc" width="50px" height="50x" />
+						<img src="img/logo-sp.png" alt="Project IO" class="sp" width="30px" />
+					</a>
+					<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-bar bar1"></span>
+						<span class="navbar-toggler-bar bar2"></span>
+						<span class="navbar-toggler-bar bar3"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse justify-content-end" data-nav-image="./assets/img/blurred-image-1.jpg">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" onclick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });">
+								<i class="now-ui-icons shopping_shop"></i><p>Home</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" onclick="ScrollToFrameworks()">
+								<i class="now-ui-icons ui-2_settings-90"></i><p>Frameworks</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link scroll_to" data-link="Team1">
+								<i class="now-ui-icons users_single-02"></i><p>Team</p>
+							</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link scroll_to" data-link="Contributions">
+									<i class="now-ui-icons business_money-coins"></i><p>Contributions</p>
+								</a>
+							</li>
+						<li class="nav-item">
+							<a class="nav-link scroll_to" data-link="Contact">
+								<i class="now-ui-icons ui-2_chat-round"></i><p>Contact</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" rel="tooltip" title="Follow me on Twitter" data-placement="bottom" href="https://twitter.com/1errolken" target="_blank">
+								<i class="fa fa-twitter"></i>
+								<p class="d-lg-none d-xl-none">Twitter</p>
+							</a>
+						</li>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" rel="tooltip" title="Follow me on Instagram" data-placement="bottom" href="https://www.instagram.com/errol.ken/" target="_blank">
+								<i class="fa fa-instagram"></i>
+								<p class="d-lg-none d-xl-none">Instagram</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" rel="tooltip" title="Follow me on LinkedIn" data-placement="bottom" href="https://www.linkedin.com/in/errol-ken-pereira/" target="_blank">
+								<i class="fa fa-linkedin"></i>
+								<p class="d-lg-none d-xl-none">LinkedIn</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" rel="tooltip" title="Follow me on Github" data-placement="bottom" href="https://github.com/Errolken" target="_blank">
+								<i class="fa fa-github"></i>
+								<p class="d-lg-none d-xl-none">Github</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="wrapper">
+			<div class="page-header clear-filter" filter-color="pink-blue">
+				<div class="page-header-image" data-parallax="true" style="background-image: url('img/header.jpg');">
+				</div>
+				<div class="container">
+						<div class="content-center brand">
+							<img src="img/logo-header.png" alt="Project IO" class="pc n-logo" />
+							<img src="img/logo-header-sp.png" alt="Project IO" class="sp n-logo" width="100px" />
+								<h1 class="h1-seo">Project IO</h1>
+								<h3>Progressing Towards Performance</h3>
+						</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modalProject1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header justify-content-center">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								<i class="now-ui-icons ui-1_simple-remove"></i>
+							</button>
+							<h4 class="title title-up">Angular Project</h4>
+						</div>
+						<div class="modal-body">
+							<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/77/original/opt_nuk_angular_thumbnail.jpg?1520507715" alt="Image" class="img-raised card"></p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, labore dolore maxime temporibus natus facere molestias est enim debitis neque sapiente unde iure quasi culpa eaque. Ratione error quidem recusandae.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-pink-blue">More Detail</button>
+							<button type="button" class="btn btn-pink-blue" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modalProject2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header justify-content-center">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								<i class="now-ui-icons ui-1_simple-remove"></i>
+							</button>
+							<h4 class="title title-up">Bootstrap Project</h4>
+						</div>
+						<div class="modal-body">
+							<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/93/original/opt_bd_thumbnail.jpg?1535098178" alt="Image" class="img-raised card"></p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, labore dolore maxime temporibus natus facere molestias est enim debitis neque sapiente unde iure quasi culpa eaque. Ratione error quidem recusandae.</p>
+						</div>
+						<div class="modal-footer">
+								<button type="button" class="btn btn-pink-blue">More Detail</button>
+							<button type="button" class="btn btn-pink-blue" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modalProject3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header justify-content-center">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								<i class="now-ui-icons ui-1_simple-remove"></i>
+							</button>
+							<h4 class="title title-up">React Project</h4>
+						</div>
+						<div class="modal-body">
+							<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/89/original/opt_mkp_react_thumbnail.jpg?1532091622" alt="Image" class="img-raised card"></p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, labore dolore maxime temporibus natus facere molestias est enim debitis neque sapiente unde iure quasi culpa eaque. Ratione error quidem recusandae.</p>
+						</div>
+						<div class="modal-footer">
+								<button type="button" class="btn btn-pink-blue">More Detail</button>
+							<button type="button" class="btn btn-pink-blue" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>				
+        <div class="main">
+					<!-- Frameworks -->
+					<div class="section">
+						<div class="container text-center">
+						<h2 class="title">Project IO</h2>
+						<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti temporibus saepe dicta asperiores animi distinctio placeat deserunt, vero, quas fugit quod explicabo. Numquam molestias dignissimos corrupti voluptates, sint porro.</h5>
+						<div class="row Frameworks-row">
+							<div class="col-md">
+								<a href="#" target="_blank" data-toggle="modal" data-target="#modalProject1" id="Frameworks">
+									<img src="https://s3.amazonaws.com/creativetim_bucket/products/77/original/opt_nuk_angular_thumbnail.jpg?1520507715" alt="Image" class="img-raised card">
+								</a>
+								<a href="#" class="btn btn-pink-blue" data-toggle="modal" data-target="#modalProject1">View Project</a>
+							</div>
+							<div class="col-md">
+								<a href="#" target="_blank" data-toggle="modal" data-target="#modalProject2">
+									<img src="https://s3.amazonaws.com/creativetim_bucket/products/93/original/opt_bd_thumbnail.jpg?1535098178" alt="Image" class="img-raised card">
+								</a>
+								<button class="btn btn-pink-blue" data-toggle="modal" data-target="#modalProject2">View Project</button>
+							</div>
+							<div class="col-md">
+								<a href="#" target="_blank" data-toggle="modal" data-target="#modalProject3">
+									<img src="https://s3.amazonaws.com/creativetim_bucket/products/89/original/opt_mkp_react_thumbnail.jpg?1532091622" alt="Image" class="img-raised card">
+								</a>
+								<button class="btn btn-pink-blue" data-toggle="modal" data-target="#modalProject3">View Project</button>
+							</div>
+						</div>																				
+						</div>
+					</div>
+				</div>
+
+				<!-- Team -->
+				<div class="section" id="Team">
+					<div class="container">
+						<div class="title text-center">
+							<h2>Project IO Team</h2>
+							<h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam cumque totam impedit, nobis iste distinctio, quasi obcaecati a ipsa magnam aut blanditiis maiores aspernatur sint, hic nostrum quod consectetur. Ipsa.</h5>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-lg-8 col-md-12">
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+									</ol>
+									<div class="carousel-inner" id="Team1" role="listbox">
+										<div class="carousel-item active">
+											<img class="d-block" src="img/action-01.jpg" alt="First slide" >
+										</div>
+										<div class="carousel-item">
+											<img class="d-block" src="img/action-02.jpg" alt="Second slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block" src="img/action-03.jpg" alt="Third slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block" src="img/action-04.jpg" alt="Fourth slide">
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<i class="now-ui-icons arrows-1_minimal-left"></i>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<i class="now-ui-icons arrows-1_minimal-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Contributions -->
+				<div class="text-center"  id="Contributions">
+					<div class="container">
+						<h2 class="title">Contributions</h2>
+						<div class="row">
+							<div class="col-md">
+								<div class="Contribution-item">
+									<img class="rounded-circle img-raised" src="img/Contributions.png" alt="">
+									<h1>Ken</h1>
+									<p class="think">Thinking................................</p>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		<div class="bg-light">
+			<h2 class="title">Get In Touch</h2>
+			<div class="row">
+				<div class="col-md container col-form-contact contact">
+					<div class="text-center">
+						<h4>Drop your details by clicking the contact button!</h4>
+						<a href="javascript:void(0)" class="btn btn-pink-blue btn-contact" target="_blank">contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main" id="Contact">
+			<footer class="footer" data-background-color="pink-blue">
+				<div class="container">
+					<div class="copyright">
+							NOW UI KIT v.1.3.0 by <a href="https://www.creative-tim.com/product/now-ui-kit">Creative Tim</a>・ Images from <a href="https://undraw.co/">Undraw</a><br />
+							&copy;
+							<script>
+									document.write(new Date().getFullYear())
+							</script>, Coded by
+							<a href="https://www.linkedin.com/in/errol-ken-pereira/" target="_blank">Errol Ken Pereira</a>.
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>	
+	<!--   Core JS Files   -->
+	<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/popper.min.js"></script>
+	<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/bootstrap.min.js"></script>
+	<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+	<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-switch.js"></script>
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/nouislider.min.js"></script>
+	<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+	<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-datepicker.js"></script>
+	<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+	<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/now-ui-kit.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
